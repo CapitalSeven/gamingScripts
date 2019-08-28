@@ -1,4 +1,4 @@
-﻿##### It's not a real tool unless it has ascii art...
+##### It's not a real tool unless it has ascii art...
 #  _               _     _       _     _                    __  
 # | |             | |   (_)     | |   | |                  /  | 
 # | | _____      _| |    _  __ _| |__ | |_ ___   _ __  ___ `| | 
@@ -13,9 +13,8 @@
 # Must state "Unrestricted"
 #####
 
-
 # Initialize global var previousCount to store "previous count of files"
-$previousCount = 0
+$global:previousCount = 0
 
 # Enable easy-mode filepath variables.
 $audioFile = 'C:\Path\To\Audio\file.wav'
